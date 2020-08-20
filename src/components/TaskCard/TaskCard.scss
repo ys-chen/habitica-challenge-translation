@@ -1,0 +1,28 @@
+@import "../../variables";
+
+.taskCard {
+  margin-bottom: 2px;
+  box-shadow: 0 2px 2px 0 rgba(26,24,29,.16), 0 1px 4px 0 rgba(26,24,29,.12);
+  border-radius: 2px;
+  overflow: hidden;
+
+  &:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 1px solid $purple;
+    box-shadow: 0 1px 8px 0 rgba(26,24,29,.12), 0 4px 4px 0 rgba(26,24,29,.16);
+  }
+}
+
+.sideBlock {
+  width: 40px;
+  min-height: 56px;
+}
+
+.squareBg {
+  background-color: lighten($info, 15%);
+}

@@ -1,0 +1,48 @@
+@import-normalize;
+// Import only what you need from Bulma
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Noto+Sans+TC|Noto+Sans+SC');
+@import "variables";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+html[lang='en-US'] body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(78, 74, 87);
+
+  h1, h2, h3, .h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+
+html[lang='zh-TW'] body {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+
+  h1, h2, h3, .h4 {
+    font-family: 'Roboto Condensed', 'Noto Sans TC', sans-serif;
+  }
+}
+
+html[lang='zh-CN'] body {
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif;
+
+  h1, h2, h3, .h4 {
+    font-family: 'Roboto Condensed', 'Noto Sans SC', sans-serif;
+  }
+}
+
+.app {
+  background-color: #F9F9F9;
+}
+
+h1 {
+  margin-bottom: 8px;
+  line-height: 1.67;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.btn {
+  box-shadow: 0 1px 3px 0 rgba(26,24,29,.12), 0 1px 2px 0 rgba(26,24,29,.24);
+}
