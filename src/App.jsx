@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
@@ -11,7 +11,7 @@ import './App.scss';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="app">
         <Header />
         <div className="container-fluid">
