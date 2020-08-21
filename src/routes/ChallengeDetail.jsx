@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import marked from 'marked';
 import ReactHtmlParser from 'html-react-parser';
@@ -29,8 +28,7 @@ function Intro({ collapsable, title, children }) {
   );
 }
 
-function ChallengeDetail() {
-  const { challengeId } = useParams();
+function ChallengeDetail({ challengeId }) {
   const [t] = useTranslation();
   const [state] = useState(meta.find(({ officialId }) => (officialId === challengeId)));
   const { shortName, tasksOrder } = state;

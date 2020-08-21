@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import ChallengeDetail from './routes/ChallengeDetail';
 import Header from './components/Header'
+import meta from './dataset/meta.json';
 import './locale/i18n';
 import './App.scss';
 
@@ -16,9 +17,11 @@ function App() {
         <Header />
         <div className="container-fluid">
           <Switch>
-            <Route path="/detail/:challengeId">
-              <ChallengeDetail />
-            </Route>
+            {meta.map(({ officialId }) => (
+              <Route path={`/detail/${officialId}`}>
+                <ChallengeDetail challengeId={officialId} />
+              </Route>
+            ))}
           </Switch>
         </div>
       </div>
