@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './TaskCard.scss';
 
 function TaskCard({ text, notes, left = true, right = false, leftShape = 'circle', leftColor = 'info', rightColor = 'light' }) {
@@ -6,7 +7,7 @@ function TaskCard({ text, notes, left = true, right = false, leftShape = 'circle
     <div className="d-flex bg-white position-relative taskCard">
       {left && (
         <div className={`d-flex justify-content-center align-items-center flex-shrink-0 bg-${leftColor} sideBlock`}>
-          <i className={`fa-lock fas p-2 small ${leftColor === 'info' ? 'text-dark border-dark' : 'text-secondary border-secondary'} ${leftShape === 'circle' ? 'border border-secondary rounded-circle' : 'rounded squareBg'}`}></i>
+          <FontAwesomeIcon icon={["fas", "lock"]} className={`p-2 ${leftColor === 'info' ? 'text-dark border-dark' : 'text-secondary border-secondary'} ${leftShape === 'circle' ? 'border border-secondary rounded-circle' : 'rounded squareBg'} taskIcon`} />
         </div>
       )}
       <div className="p-2 flex-grow-1 taskContent">
@@ -15,7 +16,7 @@ function TaskCard({ text, notes, left = true, right = false, leftShape = 'circle
       </div>
       {right && (
         <div className={`d-flex justify-content-center align-items-center flex-shrink-0 bg-${rightColor} sideBlock`}>
-          <i className={`fa-lock fas p-2 small border rounded-circle ${rightColor === 'info' ? 'text-dark border-dark' : 'text-secondary border-secondary'}`}></i>
+          <FontAwesomeIcon icon={["fas", "lock"]} className={`p-2 border rounded-circle ${rightColor === 'info' ? 'text-dark border-dark' : 'text-secondary border-secondary'} taskIcon`} />
         </div>
       )}
     </div>

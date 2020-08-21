@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import marked from 'marked';
 import ReactHtmlParser from 'html-react-parser';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TaskCard from '../components/TaskCard';
 import meta from '../dataset/meta.json';
 import './ChallengeDetail.scss';
@@ -15,8 +16,7 @@ function Intro({ collapsable, title, children }) {
         <div className="d-flex justify-content-between align-items-center">
           <h3 className="mb-0">{title}</h3>
           <button className="border-0 h2 mb-0" onClick={toggleOpen}>
-            {open && <i className="fas fa-angle-up text-secondary" />}
-            {!open && <i className="fas fa-angle-down text-secondary" />}
+            <FontAwesomeIcon icon={["fas", `angle-${open ? 'up' : 'down'}`]} className="text-secondary" />
           </button>
         </div>
       )}

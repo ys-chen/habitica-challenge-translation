@@ -1,9 +1,8 @@
 @import-normalize;
 // Import only what you need from Bulma
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Noto+Sans+TC|Noto+Sans+SC');
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Noto+Sans+TC|Noto+Sans+SC");
 @import "variables";
 @import "~bootstrap/scss/bootstrap.scss";
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 html[lang='en-US'] body {
   font-family: 'Roboto', sans-serif;

@@ -1,5 +1,6 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LanguageSelector from '../LanguageSelector';
 import './Header.scss';
 
@@ -12,7 +13,7 @@ function Header({ changeLanguage, lang }) {
         </li>
       </ul> */}
       <form className="form-inline flex-nowrap align-items-center">
-        <i className="h2 mb-0 mr-2 text-primary fas fa-globe"></i>
+        <FontAwesomeIcon icon={["fas", "globe"]} className="h2 mb-0 mr-2 text-primary" />
         <LanguageSelector mainClass="" changeLanguage={changeLanguage} lang={lang} />
       </form>
     </nav>
