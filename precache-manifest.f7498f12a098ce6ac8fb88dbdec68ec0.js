@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c671c370d094ef871d273c305550e088",
+    "revision": "c464323729b3bbf4c121cb1f08acb94b",
     "url": "/habitica-challenge-translation/index.html"
   },
   {
-    "revision": "0794232b3cf334758c1f",
+    "revision": "46002f29c9810ecaee10",
     "url": "/habitica-challenge-translation/static/css/2.947cfe3f.chunk.css"
   },
   {
-    "revision": "c3b5fc27c8d01bc72f67",
-    "url": "/habitica-challenge-translation/static/css/main.c88df015.chunk.css"
+    "revision": "d272501f595bf309a07e",
+    "url": "/habitica-challenge-translation/static/css/main.ada7cf76.chunk.css"
   },
   {
-    "revision": "0794232b3cf334758c1f",
-    "url": "/habitica-challenge-translation/static/js/2.c7d32fa1.chunk.js"
+    "revision": "46002f29c9810ecaee10",
+    "url": "/habitica-challenge-translation/static/js/2.80df882f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/habitica-challenge-translation/static/js/2.c7d32fa1.chunk.js.LICENSE.txt"
+    "url": "/habitica-challenge-translation/static/js/2.80df882f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3b5fc27c8d01bc72f67",
-    "url": "/habitica-challenge-translation/static/js/main.abfba5db.chunk.js"
+    "revision": "d272501f595bf309a07e",
+    "url": "/habitica-challenge-translation/static/js/main.5ed58938.chunk.js"
   },
   {
     "revision": "f62fe2654d10d0242cb3",
