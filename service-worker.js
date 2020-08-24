@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/habitica-challenge-translation/precache-manifest.ba84f6d4b2d40041668f7840fec6ea64.js"
+  "/habitica-challenge-translation/precache-manifest.c0764512ae2e96f1895b9b450f16436b.js"
 );
 
 self.addEventListener('message', (event) => {

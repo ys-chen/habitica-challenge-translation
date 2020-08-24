@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/habitica-challenge-translation/static/css/main.a86d3a79.chunk.css",
-    "main.js": "/habitica-challenge-translation/static/js/main.c4244b96.chunk.js",
-    "main.js.map": "/habitica-challenge-translation/static/js/main.c4244b96.chunk.js.map",
+    "main.js": "/habitica-challenge-translation/static/js/main.5909380f.chunk.js",
+    "main.js.map": "/habitica-challenge-translation/static/js/main.5909380f.chunk.js.map",
     "runtime-main.js": "/habitica-challenge-translation/static/js/runtime-main.0d2ef56e.js",
     "runtime-main.js.map": "/habitica-challenge-translation/static/js/runtime-main.0d2ef56e.js.map",
     "static/js/2.4f496023.chunk.js": "/habitica-challenge-translation/static/js/2.4f496023.chunk.js",
     "static/js/2.4f496023.chunk.js.map": "/habitica-challenge-translation/static/js/2.4f496023.chunk.js.map",
     "index.html": "/habitica-challenge-translation/index.html",
-    "precache-manifest.ba84f6d4b2d40041668f7840fec6ea64.js": "/habitica-challenge-translation/precache-manifest.ba84f6d4b2d40041668f7840fec6ea64.js",
+    "precache-manifest.c0764512ae2e96f1895b9b450f16436b.js": "/habitica-challenge-translation/precache-manifest.c0764512ae2e96f1895b9b450f16436b.js",
     "service-worker.js": "/habitica-challenge-translation/service-worker.js",
     "static/css/main.a86d3a79.chunk.css.map": "/habitica-challenge-translation/static/css/main.a86d3a79.chunk.css.map",
     "static/js/2.4f496023.chunk.js.LICENSE.txt": "/habitica-challenge-translation/static/js/2.4f496023.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0d2ef56e.js",
     "static/js/2.4f496023.chunk.js",
     "static/css/main.a86d3a79.chunk.css",
-    "static/js/main.c4244b96.chunk.js"
+    "static/js/main.5909380f.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c333fae79cee792d99c258d3b0824da",
+    "revision": "b41c95cb4202c461abebf6213aa5c78e",
     "url": "/habitica-challenge-translation/index.html"
   },
   {
-    "revision": "44404288faac65136479",
+    "revision": "719c9824b961cfeff18d",
     "url": "/habitica-challenge-translation/static/css/main.a86d3a79.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/habitica-challenge-translation/static/js/2.4f496023.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44404288faac65136479",
-    "url": "/habitica-challenge-translation/static/js/main.c4244b96.chunk.js"
+    "revision": "719c9824b961cfeff18d",
+    "url": "/habitica-challenge-translation/static/js/main.5909380f.chunk.js"
   },
   {
     "revision": "f62fe2654d10d0242cb3",
